@@ -89,6 +89,9 @@ public class Main {
 
       System.out.println("\nYou made an object of Man");
       System.out.println("Here are Details:");
+
+      System.out.println("Name: " + man.getName());
+      System.out.println("Age: " + man.getAge());
       System.out.println("Height: " + man.getHeight());
       System.out.println("Weight: " + man.getWeight());
       System.out.println("Address: " + man.getAddress());

@@ -104,26 +104,70 @@ public class Main {
 
 
       //Basic Ops
+//      Scanner sc = new Scanner(System.in);
+//      System.out.println(44%3);
+//      System.out.println(34+4);
+//      System.out.println(45-3);
+//      System.out.println(4*5);
+
+
+
+//      //Relational Operator and If Statements
+//
+//      int a, b;
+//      System.out.println("Enter an integer");
+//      a = sc.nextInt();
+//      System.out.println("Enter an integer");
+//      b = sc.nextInt();
+//      if(a>b)
+//        System.out.println(a+" A is greater than b " +b);
+//      if(a<b)
+//        System.out.println(a+" A is less than b " +b);
+//      if(a==b)
+//        System.out.println(a+" A is equal to " +b);
+
+
+
+
+      //Methods and Operations in Java
+
+
+      //Relational Operators ==, !=, <=,<=
+
       Scanner sc = new Scanner(System.in);
-      System.out.println(44%3);
-      System.out.println(34+4);
-      System.out.println(45-3);
-      System.out.println(4*5);
+      System.out.println("Enter number1");
+      int num1 = sc.nextInt();
+      System.out.println("Enter number2");
+      int num2 = sc.nextInt();
+      if(num1%num2==0)
+        System.out.println("Remainder is Zero");
+      else
+        System.out.println("Remainder is "+num1%num2);
+
+      //FOR and WHILE LOOPS
+
+      for(int i = 0; i < 10; i++) {
+
+        System.out.println("Enter number"+(i+1));
+        num1 = sc.nextInt();
+        System.out.println("Number is "+num1);
+      }
+
+int num3=10;
+
+      while(num3!=0)
+      {
+        System.out.println("Remainder is "+num1%num2);
+        System.out.println("Enter Num1");
+        num1 = sc.nextInt();
+        System.out.println("Enter Num2");
+        num2 = sc.nextInt();
+        num3--;
+
+      }
 
 
 
-      //Relational Operator and If Statements
 
-      int a, b;
-      System.out.println("Enter an integer");
-      a = sc.nextInt();
-      System.out.println("Enter an integer");
-      b = sc.nextInt();
-      if(a>b)
-        System.out.println(a+" A is greater than b " +b);
-      if(a<b)
-        System.out.println(a+" A is less than b " +b);
-      if(a==b)
-        System.out.println(a+" A is equal to " +b);
 
 }}

@@ -125,5 +125,40 @@ public class Main {
         System.out.println(a+" A is less than b " +b);
       if(a==b)
         System.out.println(a+" A is equal to " +b);
+      int streak=3;
+
+
+//Swapping between two numbers using no extra variable
+      int a1=1;
+      int b1=2;
+      System.out.println("A "+a1);
+      System.out.println("B "+b1);
+
+      a1=a1+b1;
+      b1=a1-b1;
+      a1=a1-b1;
+      System.out.println("Swapping");
+      System.out.println("A "+a1);
+      System.out.println("B "+b1);
+
+//Swapping using temp variable;
+      int n1=10;
+      int n2=20;
+      int temp;
+      System.out.println("Number1 is: "+n1);
+      System.out.println("Number2 is: "+n2);
+      System.out.println("Swapping using temp");
+      temp=n1;
+      n1=n2;
+      n2=temp;
+      System.out.println("Number1 is: "+n1);
+      System.out.println("Number2 is: "+n2);
+
+
+
+
+
 
 }}
+
+//its sunday the commit is to keep the streak ang git
